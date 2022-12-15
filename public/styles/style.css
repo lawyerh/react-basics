@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header__container {
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(to right bottom, lightgrey, white);
+  padding: 4rem 0;
+}
+
+.header__text {
+  font-size: 40px;
+  letter-spacing: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: lightgrey;
+  box-shadow: 0 1.5rem 2rem rgba(black, 0.2);
+  display: inline-block;
+  width: 20%;
+}
+
+.card:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.card__photo-container {
+  width: 100%;
+}
+
+.card__photo {
+  height: 100%;
+  width: 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+.card__name {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.card__handle {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.card__description {
+  font-size: 2rem;
+  font-weight: 400;
+}
